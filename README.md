@@ -3,7 +3,7 @@ Notes and instructions to deploy Spring Music example from CloudForundry, contai
 
 Inbstructions are for Mac OS X and should mostly work on linux except for brew and the like. Will verify on linux when time allows.
 
-## Initial steps to build and deploy
+## Build and contaimerize app
 
 ###### Clone repo and build jar
 
@@ -12,6 +12,8 @@ git clone https://github.com/cloudfoundry-samples/spring-music.git
 
 ./gradlew clean assemble
 ```
+
+This will build the example application and the jar file is in : `build/libs`. A 62.5MB jar file in that directory is called `spring-music-1.0.jar` by default.
 
 ###### Containerize from jar with `pack` CLI
 
