@@ -34,9 +34,9 @@ java -jar -Dspring.profiles.active=<profile> build/libs/spring-music.jar
 
 ###### Notes and References
 
-Spring Music git repo: https://github.com/cloudfoundry-samples/spring-music
-Buildpacks and `pack` cli: https://buildpacks.io/
-Set up backing services (e.g. db) with: https://servicebinding.io/
+* Spring Music git repo: https://github.com/cloudfoundry-samples/spring-music
+* Buildpacks and `pack` cli: https://buildpacks.io/
+* Set up backing services (e.g. db) with: https://servicebinding.io/
 
 
 Kf on GCP
