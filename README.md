@@ -29,6 +29,8 @@ pack build spring-music
 ```
 
 ###### Run app locally
+
+Run from jar
 ```
 $ java -jar build/libs/spring-music.jar
 ```
@@ -36,6 +38,11 @@ $ java -jar build/libs/spring-music.jar
 To run with a specific Spring profile:
 ```
 java -jar -Dspring.profiles.active=<profile> build/libs/spring-music.jar
+```
+
+Run with docker
+```
+docker run --rm -p 8080:8080 spring-music
 ```
 
 ###### Notes and References
