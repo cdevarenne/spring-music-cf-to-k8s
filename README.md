@@ -50,6 +50,14 @@ Hit the app from a web browser
 http://localhost:8080/
 ```
 
+Spring Boot Actuator endpoints are available at /actuator, for example:
+```
+http://localhost:8080/actuator/health
+```
+To see all actuator endpoints, try:
+```
+http://localhost:8080/actuator/mappings
+```
 
 ###### Notes and References
 
