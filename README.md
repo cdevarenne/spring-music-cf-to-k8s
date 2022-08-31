@@ -45,6 +45,12 @@ Run with docker
 docker run --rm -p 8080:8080 spring-music
 ```
 
+Hit the app from a web browser
+```
+http://localhost:8080/
+```
+
+
 ###### Notes and References
 
 * Spring Music git repo: https://github.com/cloudfoundry-samples/spring-music
