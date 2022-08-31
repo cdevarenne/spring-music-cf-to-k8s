@@ -1,5 +1,5 @@
 
-## Build and containerize app
+## Build and containerize Spring Music
 
 Build, containerize and run Spring Music example with in-memory SQL H2 Dtabase.
 
