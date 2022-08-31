@@ -16,10 +16,16 @@ This will build the example application and create a jar file in : `build/libs`.
 
 ###### Containerize from jar with `pack` CLI
 
+Set up pack CLI
 ```
 brew install buildpacks/tap/pack
+pack builder suggest
+pack config default-builder paketobuildpacks/builder:tiny
+```
 
-pack build spring-music --builder cnbs/sample-builder:bionic
+Containerize Spring Music
+```
+pack build spring-music
 ```
 
 ###### Run app locally
